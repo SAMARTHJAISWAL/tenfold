@@ -6,7 +6,7 @@ name: Deploy site
 on:
   push:
     branches: [main]
-    paths: ["src/**", "web/**", "data/**", "scripts/build.mjs", ".github/workflows/pages.yml"]
+    paths: ["src/**", "web/**", "data/**", "scripts/build.mjs", "package.json", ".github/workflows/pages.yml"]
   workflow_dispatch:
 
 permissions:
