@@ -1,0 +1,12 @@
+{
+  "name": "tenfold",
+  "version": "0.1.0",
+  "description": "A daily estimation game: one question, six guesses, scored in how many times off you are.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test test/",
+    "check-sources": "node scripts/check-sources.mjs",
+    "build": "node scripts/build.mjs"
+  }
+}

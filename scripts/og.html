@@ -1,0 +1,28 @@
+<!doctype html>
+<!-- Renders web/og.png (1200x630) in headless Chrome. Not deployed. -->
+<meta charset="utf-8">
+<style>
+  body { margin: 0; width: 1200px; height: 630px; background: #16131c; color: #eeeaf2;
+         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, sans-serif; display: flex; }
+  .left { flex: 1.15; padding: 64px 0 0 70px; }
+  .brand { display: flex; align-items: center; gap: 16px; }
+  .mark { background: #ff8a5c; color: #fff; font-weight: 800; font-size: 34px; border-radius: 14px; padding: 4px 14px; }
+  .name { font-weight: 800; font-size: 64px; letter-spacing: -0.03em; }
+  h1 { font-size: 46px; line-height: 1.15; margin: 46px 0 18px; letter-spacing: -0.01em; }
+  p { font-size: 26px; color: #a49cad; margin: 0; }
+  .right { flex: 1; display: flex; flex-direction: column; justify-content: center; gap: 14px; padding-right: 70px; }
+  .row { background: #211d29; border: 2px solid #353040; border-radius: 18px; padding: 14px 20px; font-size: 26px; display: flex; gap: 16px; align-items: center; }
+  .row b { font-size: 28px; }
+  .row span { color: #a49cad; font-size: 21px; display: block; }
+</style>
+<div class="left">
+  <div class="brand"><span class="mark">10×</span><span class="name">tenfold</span></div>
+  <h1>How far is the Moon<br>from Earth?</h1>
+  <p>One estimate a day. Six guesses.<br>Every answer sourced.</p>
+</div>
+<div class="right">
+  <div class="row">🟥 <div><b>3,000 km ⬆️</b><span>Go higher: about 128× too low</span></div></div>
+  <div class="row">🟧 <div><b>1 million km ⬇️</b><span>Go lower: about 2.6× too high</span></div></div>
+  <div class="row">🟨 <div><b>250,000 km ⬆️</b><span>Go higher: about 35% too low</span></div></div>
+  <div class="row">🟩 <div><b>400,000 km</b><span>Spot on: within 4%</span></div></div>
+</div>

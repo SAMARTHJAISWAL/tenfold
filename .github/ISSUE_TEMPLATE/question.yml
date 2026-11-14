@@ -1,0 +1,30 @@
+name: Suggest a question
+description: A "how many / how big / how far" question with a sourced answer
+title: "Question: "
+labels: ["question idea"]
+body:
+  - type: input
+    id: question
+    attributes:
+      label: Question
+      placeholder: How many bones are in an adult human skeleton?
+    validations:
+      required: true
+  - type: input
+    id: answer
+    attributes:
+      label: Answer and unit
+      placeholder: 206 bones
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source (a page that states the number)
+      placeholder: https://en.wikipedia.org/wiki/List_of_bones_of_the_human_skeleton
+    validations:
+      required: true
+  - type: textarea
+    id: note
+    attributes:
+      label: A sentence of context people would enjoy after guessing
