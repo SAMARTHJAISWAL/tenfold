@@ -1,14 +1,14 @@
 # tenfold
 
 [![CI](https://github.com/SAMARTHJAISWAL/tenfold/actions/workflows/ci.yml/badge.svg)](https://github.com/SAMARTHJAISWAL/tenfold/actions/workflows/ci.yml)
-[![Play](https://img.shields.io/badge/play-today's%20question-ff7a45)](https://samarthjaiswal.github.io/tenfold/)
+[![Play](https://img.shields.io/badge/play-today's%20question-ff7a45)](https://tenfold-gold.vercel.app/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 **One estimate a day.** How far is the Moon? How many cells are in your body? How many ways can you shuffle a deck of cards? You get six guesses, and after each one you learn which way to go and how many times off you are.
 
-**[▶ Play today's question](https://samarthjaiswal.github.io/tenfold/)**. There's no sign-up and no ads, and it works on any phone.
+**[▶ Play today's question](https://tenfold-gold.vercel.app/)**. There's no sign-up and no ads, and it works on any phone. It's also mirrored on [GitHub Pages](https://samarthjaiswal.github.io/tenfold/).
 
-[![tenfold: How far is the Moon from Earth? Four guesses getting closer: 128× too low, 2.6× too high, 35% too low, then within 4%](web/og.png)](https://samarthjaiswal.github.io/tenfold/)
+[![tenfold: How far is the Moon from Earth? Four guesses getting closer: 128× too low, 2.6× too high, 35% too low, then within 4%](web/og.png)](https://tenfold-gold.vercel.app/)
 
 ## How to play
 
@@ -28,7 +28,7 @@ When you finish, you get the answer, a sentence of context, the source, and a sp
 ```
 tenfold #2 4/6
 ⬆️🟥 ⬇️🟧 ⬆️🟨 🟩
-https://samarthjaiswal.github.io/tenfold/
+https://tenfold-gold.vercel.app/
 ```
 
 A new question unlocks at midnight in your time zone. Past days can be replayed as practice from the 📅 menu, and your streak and stats stay on your device.
