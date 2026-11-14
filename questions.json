@@ -1,0 +1,560 @@
+[
+ {
+  "id": "everest",
+  "q": "How tall is Mount Everest above sea level?",
+  "answer": 8848.86,
+  "unit": "m",
+  "evidence": "8,848.86",
+  "source": "https://en.wikipedia.org/wiki/Mount_Everest",
+  "note": "China and Nepal jointly announced 8,848.86 m in 2020."
+ },
+ {
+  "id": "moon-distance",
+  "q": "How far is the Moon from Earth, on average?",
+  "answer": 384399,
+  "unit": "km",
+  "evidence": "384,399",
+  "source": "https://en.wikipedia.org/wiki/Lunar_distance",
+  "note": "The average distance between the centres of Earth and the Moon is about 384,400 km: roughly 30 Earths side by side."
+ },
+ {
+  "id": "piano-keys",
+  "q": "How many keys does a standard modern piano have?",
+  "answer": 88,
+  "unit": "keys",
+  "evidence": "88 keys",
+  "source": "https://en.wikipedia.org/wiki/Piano",
+  "note": "52 white keys and 36 black ones, spanning a little over seven octaves."
+ },
+ {
+  "id": "deck-orders",
+  "q": "How many ways can a deck of 52 playing cards be shuffled?",
+  "answer": 8.0658e+67,
+  "unit": "orders",
+  "evidence": "8.0658",
+  "source": "https://en.wikipedia.org/wiki/Factorial",
+  "note": "52! is about 8 × 10^67: a well-shuffled deck is almost certainly in an order no deck has ever been in before."
+ },
+ {
+  "id": "statue-liberty",
+  "q": "How tall is the Statue of Liberty from the ground to the tip of the torch?",
+  "answer": 93,
+  "unit": "m",
+  "evidence": "93",
+  "source": "https://en.wikipedia.org/wiki/Statue_of_Liberty",
+  "note": "About 93 m (305 ft) including the pedestal; the copper statue itself is 46 m."
+ },
+ {
+  "id": "jupiter-earths",
+  "q": "How many Earths could fit inside Jupiter, by volume?",
+  "answer": 1321,
+  "unit": "Earths",
+  "evidence": "1,321",
+  "source": "https://en.wikipedia.org/wiki/Jupiter",
+  "note": "About 1,321 Earths, yet the Sun could hold about a thousand Jupiters."
+ },
+ {
+  "id": "un-members",
+  "q": "How many member states does the United Nations have?",
+  "answer": 193,
+  "unit": "countries",
+  "evidence": "193",
+  "source": "https://en.wikipedia.org/wiki/Member_states_of_the_United_Nations",
+  "note": "South Sudan, in 2011, was the most recent country to join."
+ },
+ {
+  "id": "blood-volume",
+  "q": "How much blood is in a typical adult human body?",
+  "answer": 5,
+  "unit": "litres",
+  "evidence": "about 5 litres",
+  "source": "https://en.wikipedia.org/wiki/Blood_volume",
+  "note": "About 5 litres, and your heart pumps roughly that much every minute at rest."
+ },
+ {
+  "id": "printing-press",
+  "q": "In roughly what year did Gutenberg print his Bible?",
+  "answer": 1455,
+  "unit": "year",
+  "evidence": "1455",
+  "source": "https://en.wikipedia.org/wiki/Gutenberg_Bible",
+  "note": "Printed around 1454–1455 in Mainz. About 49 copies survive, at least in part."
+ },
+ {
+  "id": "iss-orbit",
+  "q": "How many minutes does the International Space Station take to orbit Earth once?",
+  "answer": 92.9,
+  "unit": "minutes",
+  "evidence": "92.9",
+  "source": "https://en.wikipedia.org/wiki/International_Space_Station",
+  "note": "About 93 minutes: the crew sees around 16 sunrises a day."
+ },
+ {
+  "id": "amazon-rainforest",
+  "q": "How much area does the Amazon rainforest cover?",
+  "answer": 5500000,
+  "unit": "km²",
+  "evidence": "5,500,000",
+  "source": "https://en.wikipedia.org/wiki/Amazon_rainforest",
+  "note": "About 5.5 million km², spread across nine countries."
+ },
+ {
+  "id": "light-year",
+  "q": "How far does light travel in one year?",
+  "answer": 9460000000000,
+  "unit": "km",
+  "evidence": "9.46",
+  "source": "https://en.wikipedia.org/wiki/Light-year",
+  "note": "About 9.46 trillion km: one light-year."
+ },
+ {
+  "id": "speed-light",
+  "q": "How fast does light travel in a vacuum?",
+  "answer": 299792.458,
+  "unit": "km/s",
+  "evidence": "299,792,458",
+  "source": "https://en.wikipedia.org/wiki/Speed_of_light",
+  "note": "Exactly 299,792,458 m/s: the metre is defined by it."
+ },
+ {
+  "id": "iss-altitude",
+  "q": "At roughly what altitude does the International Space Station orbit?",
+  "answer": 400,
+  "unit": "km",
+  "evidence": "400",
+  "source": "https://en.wikipedia.org/wiki/International_Space_Station",
+  "note": "About 400 km up: roughly the distance from London to Paris, but straight up."
+ },
+ {
+  "id": "bones",
+  "q": "How many bones are in an adult human skeleton?",
+  "answer": 206,
+  "unit": "bones",
+  "evidence": "206",
+  "source": "https://en.wikipedia.org/wiki/List_of_bones_of_the_human_skeleton",
+  "note": "Babies are born with around 270; many fuse as we grow."
+ },
+ {
+  "id": "sunlight-time",
+  "q": "How many seconds does sunlight take to reach Earth?",
+  "answer": 499,
+  "unit": "seconds",
+  "evidence": "499",
+  "source": "https://en.wikipedia.org/wiki/Astronomical_unit",
+  "note": "About 8 minutes and 19 seconds: the Sun you see is the Sun of eight minutes ago."
+ },
+ {
+  "id": "earth-age",
+  "q": "How old is the Earth?",
+  "answer": 4540000000,
+  "unit": "years",
+  "evidence": "4.54",
+  "source": "https://en.wikipedia.org/wiki/Age_of_Earth",
+  "note": "Radiometric dating of meteorites puts Earth at about 4.54 billion years old."
+ },
+ {
+  "id": "sahara-area",
+  "q": "How big is the Sahara desert?",
+  "answer": 9200000,
+  "unit": "km²",
+  "evidence": "9,200,000",
+  "source": "https://en.wikipedia.org/wiki/Sahara",
+  "note": "About 9.2 million km², close to the size of China or the United States."
+ },
+ {
+  "id": "moon-diameter",
+  "q": "What is the diameter of the Moon?",
+  "answer": 3474,
+  "unit": "km",
+  "evidence": "3,474",
+  "source": "https://en.wikipedia.org/wiki/Moon",
+  "note": "About 3,474 km: a bit more than a quarter of Earth's."
+ },
+ {
+  "id": "ocean-volume",
+  "q": "What is the total volume of Earth's oceans?",
+  "answer": 1335000000,
+  "unit": "km³",
+  "evidence": "1.335",
+  "source": "https://en.wikipedia.org/wiki/Ocean",
+  "note": "About 1.335 billion cubic kilometres of water."
+ },
+ {
+  "id": "nile",
+  "q": "How long is the Nile river?",
+  "answer": 6650,
+  "unit": "km",
+  "evidence": "6,650",
+  "source": "https://en.wikipedia.org/wiki/List_of_river_systems_by_length",
+  "note": "Usually given as 6,650 km, though measuring rivers is famously contested: some surveys make the Amazon longer."
+ },
+ {
+  "id": "golden-gate",
+  "q": "How long is the main span of the Golden Gate Bridge?",
+  "answer": 1280,
+  "unit": "m",
+  "evidence": "1,280",
+  "source": "https://en.wikipedia.org/wiki/Golden_Gate_Bridge",
+  "note": "4,200 feet: the longest suspension bridge span in the world when it opened in 1937."
+ },
+ {
+  "id": "languages",
+  "q": "Roughly how many languages are spoken in the world today?",
+  "answer": 7000,
+  "unit": "languages",
+  "evidence": "7,000",
+  "source": "https://en.wikipedia.org/wiki/Language",
+  "note": "Estimates are around 7,000, and about 40% of them are endangered."
+ },
+ {
+  "id": "earth-circumference",
+  "q": "How long is Earth's equator?",
+  "answer": 40075,
+  "unit": "km",
+  "evidence": "40,075",
+  "source": "https://en.wikipedia.org/wiki/Earth%27s_circumference",
+  "note": "The equator is 40,075 km around. The metre was once defined so the pole-to-equator distance would be 10,000 km."
+ },
+ {
+  "id": "genome-bases",
+  "q": "How many base pairs are in the human genome?",
+  "answer": 3100000000,
+  "unit": "base pairs",
+  "evidence": "3.1 billion",
+  "source": "https://en.wikipedia.org/wiki/Human_genome",
+  "note": "About 3.1 billion base pairs, roughly 750 megabytes of information."
+ },
+ {
+  "id": "baikal-depth",
+  "q": "How deep is Lake Baikal, the world's deepest lake?",
+  "answer": 1642,
+  "unit": "m",
+  "evidence": "1,642",
+  "source": "https://en.wikipedia.org/wiki/Lake_Baikal",
+  "note": "1,642 m deep, and it holds about 22% of the world's fresh surface water."
+ },
+ {
+  "id": "seconds-year",
+  "q": "How many seconds are in a (non-leap) year?",
+  "answer": 31536000,
+  "unit": "seconds",
+  "evidence": "31536000",
+  "source": "https://en.wikipedia.org/wiki/Year",
+  "note": "365 × 24 × 60 × 60 = 31,536,000. A handy approximation: π × 10 million."
+ },
+ {
+  "id": "ipv4",
+  "q": "How many IPv4 addresses are there?",
+  "answer": 4294967296,
+  "unit": "addresses",
+  "evidence": "4,294,967,296",
+  "source": "https://en.wikipedia.org/wiki/IPv4",
+  "note": "2 to the power 32, about 4.3 billion: fewer than there are people, which is why IPv6 exists."
+ },
+ {
+  "id": "shannon-number",
+  "q": "Roughly how many different possible games of chess are there? (Answer in powers of ten if you like: 1e30 means a 1 with 30 zeros.)",
+  "answer": 1e+120,
+  "unit": "games",
+  "evidence": "10<sup>120</sup>",
+  "source": "https://en.wikipedia.org/wiki/Shannon_number",
+  "note": "Claude Shannon estimated the game-tree complexity of chess at about 10^120, far more than atoms in the observable universe."
+ },
+ {
+  "id": "burj-khalifa",
+  "q": "How tall is the Burj Khalifa in Dubai?",
+  "answer": 828,
+  "unit": "m",
+  "evidence": "828",
+  "source": "https://en.wikipedia.org/wiki/Burj_Khalifa",
+  "note": "The tallest building in the world since 2009."
+ },
+ {
+  "id": "taj-mahal-years",
+  "q": "In what year was the Taj Mahal's main mausoleum completed?",
+  "answer": 1643,
+  "unit": "year",
+  "evidence": "1643",
+  "source": "https://en.wikipedia.org/wiki/Taj_Mahal",
+  "note": "The mausoleum was completed in 1643; work on the whole complex went on for another decade."
+ },
+ {
+  "id": "pacific-area",
+  "q": "What is the area of the Pacific Ocean?",
+  "answer": 165250000,
+  "unit": "km²",
+  "evidence": "165,250,000",
+  "source": "https://en.wikipedia.org/wiki/Pacific_Ocean",
+  "note": "About 165 million km²: larger than all of Earth's land put together."
+ },
+ {
+  "id": "proxima",
+  "q": "How far away is Proxima Centauri, the nearest star after the Sun?",
+  "answer": 4.24,
+  "unit": "light-years",
+  "evidence": "4.24",
+  "source": "https://en.wikipedia.org/wiki/Proxima_Centauri",
+  "note": "About 4.24 light-years: around 40 trillion km."
+ },
+ {
+  "id": "body-cells",
+  "q": "Roughly how many human cells make up an adult body?",
+  "answer": 37200000000000,
+  "unit": "cells",
+  "evidence": "37.2",
+  "source": "https://en.wikipedia.org/wiki/Cell_(biology)",
+  "note": "A 2013 estimate put it at about 37.2 trillion cells, not counting the bacteria that live in and on us."
+ },
+ {
+  "id": "brain-mass",
+  "q": "How much does an adult human brain weigh?",
+  "answer": 1.4,
+  "unit": "kg",
+  "evidence": "1.2",
+  "source": "https://en.wikipedia.org/wiki/Human_brain",
+  "note": "About 1.2 to 1.4 kg: around 2% of body weight, but it uses about 20% of the body's energy."
+ },
+ {
+  "id": "sun-diameter",
+  "q": "What is the diameter of the Sun?",
+  "answer": 1391400,
+  "unit": "km",
+  "evidence": "1,391,400",
+  "source": "https://en.wikipedia.org/wiki/Sun",
+  "note": "About 1.39 million km: 109 Earths across."
+ },
+ {
+  "id": "a380-mtow",
+  "q": "What is the maximum takeoff weight of an Airbus A380?",
+  "answer": 575,
+  "unit": "tonnes",
+  "evidence": "575",
+  "source": "https://en.wikipedia.org/wiki/Airbus_A380",
+  "note": "575 tonnes: the heaviest passenger airliner ever built."
+ },
+ {
+  "id": "everest-first",
+  "q": "In what year was Mount Everest first summited?",
+  "answer": 1953,
+  "unit": "year",
+  "evidence": "1953",
+  "source": "https://en.wikipedia.org/wiki/Mount_Everest",
+  "note": "Edmund Hillary and Tenzing Norgay reached the top on 29 May 1953."
+ },
+ {
+  "id": "brain-neurons",
+  "q": "How many neurons are in the human brain?",
+  "answer": 86000000000,
+  "unit": "neurons",
+  "evidence": "86 billion",
+  "source": "https://en.wikipedia.org/wiki/Human_brain",
+  "note": "The usual estimate is about 86 billion neurons."
+ },
+ {
+  "id": "great-pyramid",
+  "q": "How tall was the Great Pyramid of Giza when it was built?",
+  "answer": 146.6,
+  "unit": "m",
+  "evidence": "146.6",
+  "source": "https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza",
+  "note": "Originally 146.6 m. It was the tallest human-made structure in the world for nearly 4,000 years."
+ },
+ {
+  "id": "hyperion",
+  "q": "How tall is Hyperion, the tallest known living tree?",
+  "answer": 116,
+  "unit": "m",
+  "evidence": "116",
+  "source": "https://en.wikipedia.org/wiki/Hyperion_(tree)",
+  "note": "A coast redwood in California, about 116 m tall. Its exact location is kept secret to protect it."
+ },
+ {
+  "id": "giraffe-neck",
+  "q": "How many vertebrae are in a giraffe's neck?",
+  "answer": 7,
+  "unit": "vertebrae",
+  "evidence": "seven",
+  "source": "https://en.wikipedia.org/wiki/Giraffe",
+  "note": "Seven, the same as yours: each one is just up to 25 cm long."
+ },
+ {
+  "id": "m1-transistors",
+  "q": "How many transistors are on Apple's M1 chip?",
+  "answer": 16000000000,
+  "unit": "transistors",
+  "evidence": "16 billion",
+  "source": "https://en.wikipedia.org/wiki/Apple_M1",
+  "note": "16 billion transistors on a chip about 120 mm²."
+ },
+ {
+  "id": "olympic-pool",
+  "q": "How many litres of water does an Olympic swimming pool hold (50 m × 25 m × 2 m)?",
+  "answer": 2500000,
+  "unit": "litres",
+  "evidence": "2,500,000",
+  "source": "https://en.wikipedia.org/wiki/Olympic-size_swimming_pool",
+  "note": "2.5 million litres at the minimum 2 m depth."
+ },
+ {
+  "id": "angel-falls",
+  "q": "How tall is Angel Falls in Venezuela, the world's highest waterfall?",
+  "answer": 979,
+  "unit": "m",
+  "evidence": "979",
+  "source": "https://en.wikipedia.org/wiki/Angel_Falls",
+  "note": "979 m, with an uninterrupted drop of 807 m."
+ },
+ {
+  "id": "russia-area",
+  "q": "What is the area of Russia?",
+  "answer": 17098246,
+  "unit": "km²",
+  "evidence": "17,098,246",
+  "source": "https://en.wikipedia.org/wiki/Russia",
+  "note": "About 17.1 million km²: more than an eighth of Earth's inhabited land."
+ },
+ {
+  "id": "dna-length",
+  "q": "If you stretched out the DNA in one human cell, how long would it be?",
+  "answer": 2,
+  "unit": "m",
+  "evidence": "2 m",
+  "source": "https://en.wikipedia.org/wiki/Human_genome",
+  "note": "About 2 metres, packed into a nucleus a few micrometres across."
+ },
+ {
+  "id": "universe-age",
+  "q": "How old is the universe?",
+  "answer": 13800000000,
+  "unit": "years",
+  "evidence": "13.8",
+  "source": "https://en.wikipedia.org/wiki/Age_of_the_universe",
+  "note": "Measurements of the cosmic microwave background put it at about 13.8 billion years."
+ },
+ {
+  "id": "earth-radius",
+  "q": "What is Earth's average radius?",
+  "answer": 6371,
+  "unit": "km",
+  "evidence": "6,371",
+  "source": "https://en.wikipedia.org/wiki/Earth_radius",
+  "note": "About 6,371 km from the centre to the surface; the equator bulges about 21 km further out than the poles."
+ },
+ {
+  "id": "vatican-area",
+  "q": "What is the area of Vatican City?",
+  "answer": 0.49,
+  "unit": "km²",
+  "evidence": "0.49",
+  "source": "https://en.wikipedia.org/wiki/Vatican_City",
+  "note": "About 0.49 km² (49 hectares): the smallest sovereign state in the world."
+ },
+ {
+  "id": "mariana-depth",
+  "q": "How deep is the Challenger Deep, the deepest known point in the ocean?",
+  "answer": 10935,
+  "unit": "m",
+  "evidence": "10,935",
+  "source": "https://en.wikipedia.org/wiki/Challenger_Deep",
+  "note": "About 10,935 m: if Everest sat at the bottom, its peak would still be over 2 km underwater."
+ },
+ {
+  "id": "eiffel-height",
+  "q": "How tall is the Eiffel Tower, including its antennas?",
+  "answer": 330,
+  "unit": "m",
+  "evidence": "330",
+  "source": "https://en.wikipedia.org/wiki/Eiffel_Tower",
+  "note": "330 m. In hot weather the iron expands and it grows by up to 15 cm."
+ },
+ {
+  "id": "boeing-747-wingspan",
+  "q": "What is the wingspan of a Boeing 747-400?",
+  "answer": 64.4,
+  "unit": "m",
+  "evidence": "64.4",
+  "source": "https://en.wikipedia.org/wiki/Boeing_747-400",
+  "note": "64.4 m: longer than the Wright brothers' first flight (36.6 m)."
+ },
+ {
+  "id": "moonwalkers",
+  "q": "How many people have walked on the Moon?",
+  "answer": 12,
+  "unit": "people",
+  "evidence": "12",
+  "source": "https://en.wikipedia.org/wiki/List_of_Apollo_astronauts",
+  "note": "Twelve astronauts on six Apollo missions, between 1969 and 1972."
+ },
+ {
+  "id": "sun-distance",
+  "q": "How far is the Earth from the Sun, on average?",
+  "answer": 149600000,
+  "unit": "km",
+  "evidence": "149597870700",
+  "source": "https://en.wikipedia.org/wiki/Astronomical_unit",
+  "note": "One astronomical unit is defined as exactly 149,597,870,700 metres: about 150 million km."
+ },
+ {
+  "id": "ocean-depth",
+  "q": "What is the average depth of the ocean?",
+  "answer": 3688,
+  "unit": "m",
+  "evidence": "3,688",
+  "source": "https://en.wikipedia.org/wiki/Ocean",
+  "note": "About 3.7 km. The deepest point, the Challenger Deep, is nearly three times deeper."
+ },
+ {
+  "id": "earth-orbit-speed",
+  "q": "How fast does Earth move around the Sun?",
+  "answer": 29.78,
+  "unit": "km/s",
+  "evidence": "29.78",
+  "source": "https://en.wikipedia.org/wiki/Earth",
+  "note": "About 29.78 km/s, or over 107,000 km/h: in the minute it takes to read this, you have travelled about 1,800 km around the Sun."
+ },
+ {
+  "id": "titanic-length",
+  "q": "How long was the RMS Titanic?",
+  "answer": 269.1,
+  "unit": "m",
+  "evidence": "269.1",
+  "source": "https://en.wikipedia.org/wiki/RMS_Titanic",
+  "note": "269.1 m (882 ft 9 in) overall."
+ },
+ {
+  "id": "rubiks",
+  "q": "How many positions can a Rubik's Cube be in?",
+  "answer": 43252003274489856000,
+  "unit": "positions",
+  "evidence": "43,252,003,274,489,856,000",
+  "source": "https://en.wikipedia.org/wiki/Rubik%27s_Cube",
+  "note": "About 43 quintillion, yet every one can be solved in 20 moves or fewer."
+ },
+ {
+  "id": "intel-4004",
+  "q": "How many transistors were on the Intel 4004, the first commercial microprocessor (1971)?",
+  "answer": 2300,
+  "unit": "transistors",
+  "evidence": "2,300",
+  "source": "https://en.wikipedia.org/wiki/Intel_4004",
+  "note": "2,300 transistors. Fifty years later chips hold tens of billions."
+ },
+ {
+  "id": "sound-speed",
+  "q": "How fast does sound travel through air at 20 °C?",
+  "answer": 343,
+  "unit": "m/s",
+  "evidence": "343",
+  "source": "https://en.wikipedia.org/wiki/Speed_of_sound",
+  "note": "About 343 metres per second, or one kilometre in roughly three seconds: count after the lightning."
+ },
+ {
+  "id": "great-wall",
+  "q": "How long is the Great Wall of China, counting all its branches?",
+  "answer": 21196,
+  "unit": "km",
+  "evidence": "21,196",
+  "source": "https://en.wikipedia.org/wiki/Great_Wall_of_China",
+  "note": "A 2012 Chinese survey measured all the walls built over two millennia at 21,196 km."
+ }
+]

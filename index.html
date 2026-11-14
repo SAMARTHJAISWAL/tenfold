@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>tenfold — one estimate a day</title>
+  <meta name="description" content="A daily estimation game. One question, six guesses. How far is the Moon? How many cells are in you? Every answer is sourced.">
+  <meta property="og:title" content="tenfold — one estimate a day">
+  <meta property="og:description" content="One question a day, six guesses, scored in how many times off you are. Every answer is sourced.">
+  <meta property="og:image" content="https://tenfold-gold.vercel.app/og.png">
+  <meta property="og:url" content="https://tenfold-gold.vercel.app/">
+  <link rel="canonical" href="https://tenfold-gold.vercel.app/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#16131c">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23ff7a45'/%3E%3Ctext x='16' y='22' font-family='Arial' font-weight='bold' font-size='15' text-anchor='middle' fill='white'%3E10%C3%97%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="bar">
+    <button class="icon" id="help-btn" aria-label="How to play">?</button>
+    <div class="brand"><span class="mark">10×</span><span class="name">tenfold</span></div>
+    <div class="right">
+      <button class="icon" id="archive-btn" aria-label="Past days">📅</button>
+      <button class="icon" id="stats-btn" aria-label="Statistics">📊</button>
+    </div>
+  </header>
+
+  <main>
+    <p class="day" id="day"></p>
+    <h1 class="question" id="question"></h1>
+
+    <form id="guess-form" class="guess" autocomplete="off">
+      <div class="field">
+        <input id="guess" inputmode="text" enterkeyhint="go" placeholder="Your estimate" aria-label="Your estimate" spellcheck="false">
+        <span class="unit" id="unit"></span>
+      </div>
+      <button id="guess-btn" type="submit">Guess</button>
+    </form>
+    <p class="reading" id="reading">Type a number: 3500, 2.5 million, 4e9…</p>
+    <div class="words" id="words">
+      <button type="button" data-w="thousand">thousand</button>
+      <button type="button" data-w="million">million</button>
+      <button type="button" data-w="billion">billion</button>
+      <button type="button" data-w="trillion">trillion</button>
+    </div>
+
+    <svg id="line" class="line" viewBox="0 0 600 70" role="img" aria-label="Your guesses on a number line"></svg>
+
+    <ol class="guesses" id="guesses"></ol>
+    <p class="left" id="left"></p>
+
+    <section class="result" id="result" hidden>
+      <p class="verdict" id="verdict"></p>
+      <p class="answer" id="answer"></p>
+      <p class="note" id="note"></p>
+      <p class="source">Source: <a id="source" target="_blank" rel="noopener"></a></p>
+      <div class="share-row">
+        <button id="share" type="button">Share</button>
+        <span class="next" id="next"></span>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    Every answer links to its source. <a href="https://github.com/SAMARTHJAISWAL/tenfold">Suggest a question</a> · MIT
+  </footer>
+
+  <dialog id="help">
+    <h2>How to play</h2>
+    <p>One question a day. Estimate the number in <b>six guesses</b>.</p>
+    <p>After each guess you learn which way to go and roughly how far off you are:</p>
+    <ul class="legend">
+      <li><span>🟩</span> within 10%: you win</li>
+      <li><span>🟨</span> within 2×</li>
+      <li><span>🟧</span> within 10×</li>
+      <li><span>🟥</span> more than 10× off</li>
+    </ul>
+    <p>Type numbers however you like: <code>4200</code>, <code>4,200</code>, <code>2.5 million</code>, <code>3e9</code>, <code>10^20</code>.</p>
+    <p>A new question appears at midnight. Every answer comes with its source.</p>
+    <button class="close" type="button">Play</button>
+  </dialog>
+
+  <dialog id="stats">
+    <h2>Statistics</h2>
+    <div class="numbers" id="stat-numbers"></div>
+    <h3>Guesses to win</h3>
+    <div class="spread" id="spread"></div>
+    <button class="close" type="button">Close</button>
+  </dialog>
+
+  <dialog id="archive">
+    <h2>Past days</h2>
+    <p class="muted">Practise on earlier questions. They don't count towards your streak.</p>
+    <ol class="days" id="days"></ol>
+    <button class="close" type="button">Close</button>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" hidden></div>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
